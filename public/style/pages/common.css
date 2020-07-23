@@ -13,6 +13,7 @@ body {
 .comm-box {
   background-color: #fff;
   margin-left: .5rem;
+  margin-bottom: .5rem;
   padding: .3rem;
   border-radius: .3rem;
   border: 1px solid #eee;
@@ -41,7 +42,7 @@ body {
 .breadcrumb {
   margin: .3rem 0;
   padding-left: .5rem;
-  background-color: #eee;
+  background-color: #e1f0ff;
   border-radius: .3rem;
 }
 
