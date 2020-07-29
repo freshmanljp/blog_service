@@ -13,15 +13,13 @@
   padding: 1.3rem;
   font-size: 1rem;
 }
-/* 这个code选择器没搞明白 */
-code {
-  display: block ;
-  background-color:#f3f3f3;
-  padding: .5rem !important;
-  overflow-y: auto;
-  font-weight: 300;
-  font-family: Menlo, monospace;
-  border-radius: .3rem;
+.article-content  img{
+  width: 100%;
+  border:1px solid #f3f3f3;
+}
+
+iframe{
+  height: 34rem;
 }
 .title-anchor{
   color:#888 !important;
@@ -39,4 +37,13 @@ code {
   text-align: center;
   color: #888;
   border-bottom: 1px solid rgb(30, 144, 255);
+}
+.title-level3{
+  display: none !important;
+}
+.ant-anchor-link-title{
+  font-size: 12px !important;
+}
+.ant-anchor-wrapper{
+  padding: 5px !important;
 }

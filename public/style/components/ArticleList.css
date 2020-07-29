@@ -1,0 +1,30 @@
+/* 列表部分样式 */
+.list-title{
+  font-size:1.3rem;
+  color: #1e90ff;
+  padding: 0 0.5rem;
+}
+.list-content{
+  color:#777;
+  padding:.5rem;
+  max-height: 100px !important;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.list-content img{
+  width:100% ;
+  border-radius:5px;
+  border:1px solid #f0f0f0;
+  max-width:1000px !important;
+  display: block;
+  margin:8px  auto;
+}
+.list-subtitle{
+  padding:.5rem 0;
+  color:#AAA;
+}
+.list-subtitle span{
+  display: inline-block;
+  padding: 0 10px;
+}

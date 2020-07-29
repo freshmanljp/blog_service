@@ -19,23 +19,6 @@ body {
   border: 1px solid #eee;
 }
 
-.list-title{
-  font-size:1.3rem;
-  color: #1e90ff;
-  padding: 0 0.5rem;
-}
-.list-content{
-  color:#777;
-  padding:.5rem;
-}
-.list-subtitle{
-  padding:.5rem 0;
-  color:#AAA;
-}
-.list-subtitle span{
-  display: inline-block;
-  padding: 0 10px;
-}
 .ant-list-header {
   padding-left: .5rem;
 }
@@ -44,5 +27,36 @@ body {
   padding-left: .5rem;
   background-color: #e1f0ff;
   border-radius: .3rem;
+}
+/* markdown代码部分样式 */
+pre{
+  display: block;
+  background-color:#f3f3f3;
+   padding: .5rem !important;
+   overflow-y: auto;
+   font-weight: 300;
+   font-family: Menlo, monospace;
+   border-radius: .3rem;
+}
+pre{
+  background-color: #283646 !important;
+}
+pre >code{
+  border:0px !important;
+  background-color: #283646 !important;
+  color:#FFF;
+
+}
+code {
+  display: inline-block ;
+  background-color:#f3f3f3;
+  border:1px solid #fdb9cc;
+  border-radius:3px;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color:#4f4f4f;
+  margin: 0px 3px;
+
 }
 
