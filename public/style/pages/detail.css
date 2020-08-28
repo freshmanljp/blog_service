@@ -47,3 +47,13 @@ iframe{
 .ant-anchor-wrapper{
   padding: 5px !important;
 }
+.article-content blockquote {
+  border-left: 4px solid rgb(156, 203, 250);
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  -webkit-margin-bottom-collapse: 2rem;
+  color: #666;
+  font-size: 1rem;
+  font-weight: bold;
+}

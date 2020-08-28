@@ -1,0 +1,19 @@
+.music-header {
+  margin-bottom: .8rem;
+}
+.player {
+  margin: 1rem 0;
+  background: #f1f3f4;
+  height: 60px
+}
+.player audio {
+  width: 100%;
+  outline: none;
+  border-radius: 0;
+}
+.site-page-header {
+  border: 1px solid rgb(235, 237, 240);
+}
+.site-page-header .ant-page-header-heading-title {
+  color: #1e90ff;
+}

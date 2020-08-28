@@ -34,7 +34,6 @@ function Detail(props) {
   // }
   const renderer = {
     heading(text, level) {
-      console.log('in')
       const anchor = tocify.add(text, level)
       return `<a id="${anchor}" herf="#${anchor}" class="anchor-fix"><h${level}>${text}</h${level}></a>\n`
     }

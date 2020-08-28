@@ -1,0 +1,174 @@
+.top-card {
+  position: relative;
+  box-sizing: border-box;
+  height: 160px;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 1.25rem;
+}
+.top-card .img-wrap {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  width: 120px;
+  height: 120px;
+  font-size: 4rem;
+  margin-right: 1.25rem;
+  z-index: 1;
+}
+.top-card .img-wrap img{
+  width: 100%;
+}
+.top-card .img-wrap .icon {
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  width: 120px;
+  height: 120px;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.top-card .img-wrap .icon:hover {
+  opacity: 1;
+}
+.top-card .content-wrap {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1;
+}
+.top-card .content-wrap .tag {
+  color: #dfac67;
+  border: 1px solid #dfac67;
+  width: 6.6rem;
+  height: 1.3rem;
+  text-align: center;
+  border-radius: 5px;
+  font-size: .8rem;
+  line-height: 1.3rem;
+}
+.top-card .content-wrap .title {
+  color: #fff;
+  padding-top: 0.625rem;
+  font-size: 1rem;
+}
+.top-card .content-wrap .desc {
+  color: #888482;
+  font-size: 0.7rem;
+  padding-top: .4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.top-card .bgc {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  /* 给图像设置高斯模糊。"radius"一值设定高斯函数的标准差，或者是屏幕上以多少像素融在一起， 所以值越大越模糊； */
+  filter: blur(20px)
+}
+.top-card .bgc {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* 分类列表区域样式 */
+.tab-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.tab-container .tab-bar {
+  display: flex;
+  justify-content: flex-end;
+}
+.tab-container .item {
+  font-size: .8rem;
+  line-height: .8rem;
+  color: #888482;
+  margin: 0 .1rem;
+  cursor: pointer;
+}
+/* .tab-container .item:nth-child(n+6) {
+  margin-top: 25px;
+} */
+.tab-container .item.active {
+  color: #1890ff;
+}
+.tab-container .tab-content {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tab-container .tab-content .item {
+  width: 19%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.tab-container .tab-content .item:nth-child(n+6) {
+  margin-top: .8rem;
+}
+.tab-container .tab-content .img-wrap img{
+  width: 100%;
+  /* 保持图片原比例 */
+  object-fit: cover;
+  border-radius: 5px
+}
+.tab-container .tab-content .img-wrap {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+.tab-container .tab-content .icon {
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 120px;
+  height: 120px;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.tab-container .tab-content .icon:hover {
+  opacity: 1;
+}
+.tab-container .tab-content .play-count {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: .7rem;
+  color: #fff;
+  line-height: 1.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  height: 1.5rem;
+  padding: 0 .3rem;
+  overflow: hidden;
+}
+.tab-container .tab-content .desc {
+  overflow: hidden;
+  margin-top: .5rem;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: .8rem;
+  line-height: 1rem;
+}
+.tab-container .pagination {
+  text-align: center;
+}
+

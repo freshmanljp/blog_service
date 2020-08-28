@@ -4,7 +4,7 @@
 /* rem中默认的fontsize配置为16px */
 .header {
   overflow: hidden;
-  padding: .4rem;
+  padding: 0 2rem;
   height: 3.2rem;
   background-color: #fff;
   border-bottom: 1px solid #eee;
@@ -13,6 +13,7 @@
   color:#1e90ff;
   font-size: 1.4rem;
   text-align: left;
+  line-height: 3.2rem;
 }
 .header_txt {
   font-size: 0.6rem;
@@ -24,7 +25,7 @@
   line-height: 2.8rem;
 }
 .ant-menu-item{
-  font-size:1rem !important;
+  font-size: .8rem !important;
   padding-left:.5rem;
   padding-right:.5rem;
 }

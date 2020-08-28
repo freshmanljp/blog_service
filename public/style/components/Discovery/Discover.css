@@ -1,0 +1,9 @@
+.Dc_title {
+  margin-top: 25px;
+  margin-bottom: -5px;
+}
+hr {
+  background-color: #ccc;
+  height: 1px;
+  border: none;
+}

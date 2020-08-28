@@ -4,7 +4,7 @@ import {
   Row,
   Menu
 } from 'antd'
-import { HomeOutlined, HighlightOutlined, SmileOutlined, CameraOutlined } from '@ant-design/icons'
+import { HomeOutlined, HighlightOutlined, SmileOutlined, CameraOutlined, CustomerServiceOutlined } from '@ant-design/icons'
 import '../public/style/components/Header.css'
 import { getNavList } from '../service'
 import Router from 'next/router'
@@ -37,6 +37,8 @@ export default function Header() {
     const key = e.key
     if(key === '0') {
       Router.push('/')
+    } else if(key === '100') {
+      Router.push('/music?key=1')
     } else {
       Router.push('/list?key=' + key)
     }
@@ -48,8 +50,8 @@ export default function Header() {
           <span className="header_logo">惜乐园</span>
           <span className="header_txt">专注前端学习与生活吐槽。</span>
         </Col>
-        <Col className="menu" xs={0} sm={0} md={14} lg={12} xl={10}>
-          <Menu mode="horizontal" onClick={handleMenuClick}>
+        <Col className="menu" xs={0} sm={0} md={14} lg={12} xl={12}>
+          <Menu mode="horizontal" onClick={handleMenuClick} className="headerMenu">
             <Menu.Item key="0">
               <HomeOutlined />
               首页
@@ -64,6 +66,10 @@ export default function Header() {
                 )
               })
             }
+            <Menu.Item key="100">
+              <CustomerServiceOutlined />
+              来电音乐
+            </Menu.Item>
           </Menu>
         </Col>
       </Row>

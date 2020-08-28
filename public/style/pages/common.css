@@ -2,7 +2,7 @@ body {
   background-color: #f6f6f6;
 }
 .comm-main {
-  margin-top: .5rem;
+  margin-top: .8rem;
 }
 .comm-left {
   background-color: #FFF;
@@ -12,8 +12,8 @@ body {
 }
 .comm-box {
   background-color: #fff;
-  margin-left: .5rem;
-  margin-bottom: .5rem;
+  margin-left: .8rem;
+  margin-bottom: .8rem;
   padding: .3rem;
   border-radius: .3rem;
   border: 1px solid #eee;

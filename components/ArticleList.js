@@ -46,7 +46,7 @@ export default function ArticleList(props) {
             </Link>
           </div>
           <div className="list-subtitle">
-            <span><CalendarOutlined />{item.add_time.split('T')[0]}</span>
+            <span><CalendarOutlined />{item.add_time}</span>
             <span><FolderOutlined />{item.type_name}</span>
             <span><FireOutlined />{item.view_count}</span>
           </div>
